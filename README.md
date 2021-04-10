@@ -1,4 +1,5 @@
-### Hi there, I'm **Aadhar Bhatnagar** - aka [reactninja][website] 👋
+### Hi there, I'm **Aadhar Bhatnagar** - aka [reactninja][website] famously known by my two cats as Javascript Soldier 👋 
+
 
 <img src="./aadhar54.jpeg" height="200px">
 
