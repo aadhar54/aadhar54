@@ -1,4 +1,4 @@
-### Hi there, I'm **Aadhar Bhatnagar** - aka [reactninja][website] famously known by my two cats as Javascript Soldier 👋 
+### Hi there, I'm **Aadhar Bhatnagar** - aka [reactninja][website] 👋 
 
 
 <img src="./aadhar54.jpeg" height="200px">
@@ -10,7 +10,7 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 
 ## I'm a `prudent and motivated` Front End Developer , Teacher and Investor !!
 
-- My dream is to spend my life `building products` and reading books 🔭💛
+- My dream is to spend my life `building products` and become a `Javascript Soldier` 🔭💛
 - I’m currently building projects with React 🔵
 - I love to help people with doubts in projects ❤️
 - 2021 Goals: Work to Level up my proficiency in `Typescript` 🔥
