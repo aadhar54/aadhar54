@@ -15,6 +15,7 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 - I love to help people with doubts in projects ❤️
 - 2021 Goals: Work to Level up my proficiency in `Typescript` 🔥
 - Fun fact: I am an ardent fan of Indian Comedy Scene 🟩
+- My favourite song is Iktara from Wake Up Sid 🌦️
 
 ### Spotify Playing 🎧
 
