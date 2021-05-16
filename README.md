@@ -5,7 +5,7 @@
 
 Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅ 
 
-[![Website](https://img.shields.io/website?label=https://drive.google.com/file/d/1-nmC1d-Sx9moBB5OTrr1ZaPPe1D4UStB/view?usp=sharing&style=for-the-badge&url=https://drive.google.com/file/d/1-nmC1d-Sx9moBB5OTrr1ZaPPe1D4UStB/view?usp=sharing)](code is ❤️)
+[![Website](https://img.shields.io/website?label=https://drive.google.com/file/d/1-nmC1d-Sx9moBB5OTrr1ZaPPe1D4UStB/view?usp=sharing&style=for-the-badge&url=Never Give Up ❤️)](Never Give Up ❤️)
 [![Twitter Follow](https://img.shields.io/twitter/follow/aadhar54?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
 ## I'm a `prudent and motivated` Front End Developer , Teacher and Investor !!
@@ -27,7 +27,7 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 
  - 💻 *Front-End Development:* <img align="center" height="30" src="https://img.icons8.com/color/144/000000/html-5.png"/> <img align="center" height="30" src="https://img.icons8.com/color/144/000000/css3.png"/> <img align="center" height="30" src="https://img.icons8.com/color/144/000000/javascript.png"/> <img align="center" height="30" src="https://img.icons8.com/ultraviolet/480/000000/react.png"/> 
 
-- 💻 *Work Experience:* I have worked in Tata Consultancy Services for 2 years as a Software Engineer with Javascript .I have also interned as a web developer with IIIT Hyderabad ,Utkarshini and Javatpoint  <img align="center" height="30" src="https://img.icons8.com/emoji/48/000000/rocket-emji.png"/>
+- 💻 *Work Experience:* I have worked in Tata Consultancy Services and Informatica for 2 years as a Software Engineer .I have also interned as a web developer with IIIT Hyderabad ,Utkarshini and Javatpoint  <img align="center" height="30" src="https://img.icons8.com/emoji/48/000000/rocket-emji.png"/>
 
 
 ### 📌 Here's a link to my [Portfolio](https://aadhar54.netlify.app/)
