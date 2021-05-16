@@ -5,7 +5,6 @@
 
 Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅ 
 
-[![Website](https://img.shields.io/website?label=https://drive.google.com/file/d/1-nmC1d-Sx9moBB5OTrr1ZaPPe1D4UStB/view?usp=sharing&style=for-the-badge&url=Never Give Up ❤️)](Never Give Up ❤️)
 [![Twitter Follow](https://img.shields.io/twitter/follow/aadhar54?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
 ## I'm a `prudent and motivated` Front End Developer , Teacher and Investor !!
