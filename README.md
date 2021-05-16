@@ -1,4 +1,4 @@
-### Hi there, I'm **Aadhar Bhatnagar** - aka [reactninja][website] 👋 
+### Hi there, I'm **Aadhar Bhatnagar** -  [Resume][website] 👋 
 
 
 <img src="./aadhar54.jpeg" height="200px">
