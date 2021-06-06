@@ -1,5 +1,7 @@
 ### Hi there, I'm **Aadhar Bhatnagar** - [Resume][website] 👋 
 
+I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
+
 
 <img src="./aadhar54.jpeg" height="200px">
 
