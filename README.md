@@ -9,18 +9,15 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/aadhar54?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
-## I'm a `prudent and motivated` Front End Developer , Teacher and TA !!
+## I'm a `prudent and motivated` Back End Developer , Teacher and TA !!
 
 - My dream is to spend my life `building products` and become a `Javascript Soldier` 🔭💛
-- I’m currently building projects with React 🔵
+- I’m currently building projects with React and Spring Boot🔵
 - I love to help people with doubts in projects ❤️
 - 2021 Goals: Work to Level up my proficiency in `Typescript` 🔥
 - Fun fact: I am an ardent fan of Indian Comedy Scene 🟩
 - My favourite song is Iktara from Wake Up Sid 🌦️
 
-### Spotify Playing 🎧
-
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" Spotify Playing" width="350" />](https://open.spotify.com/user/swyqyimdc12jajde4vpwd2x1b)
 
 ### 📌 My technical skills include :
 
