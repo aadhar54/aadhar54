@@ -47,7 +47,7 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 
 ---
 
-[website]: https://drive.google.com/file/d/1-nmC1d-Sx9moBB5OTrr1ZaPPe1D4UStB/view?usp=sharing
+[website]: https://www.linkedin.com/in/thebtechviral/
 [twitter]: https://twitter.com/aadhar54
 [youtube]: https://www.youtube.com/c/AADHAR451
 [instagram]: https://instagram.com/reactninja
