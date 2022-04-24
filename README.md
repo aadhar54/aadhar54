@@ -36,7 +36,7 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 [<img align="center" height="40" src="https://img.icons8.com/color/48/000000/hot-article.png"/>](https://hashnode.com/@aadhar54)
 [<img align="center" height="40" src="https://img.icons8.com/color/144/000000/linkedin.png"/>](https://www.linkedin.com/in/aadhar54/)
 [<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/twitter.png"/>](https://twitter.com/aadhar54)
-[<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/instagram-new.png"/>](https://www.instagram.com/reactninja/)
+[<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/instagram-new.png"/>](https://aadhar54.github.io/)
    
 
 <br />
@@ -47,7 +47,7 @@ Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅
 [website]: https://www.linkedin.com/in/thebtechviral/
 [twitter]: https://twitter.com/aadhar54
 [youtube]: https://www.youtube.com/c/AADHAR451
-[instagram]: https://instagram.com/reactninja
+[instagram]: https://aadhar54.github.io/
 [linkedin]: https://linkedin.com/in/aadhar54
 
 # "There is only one thing more important than helping others is helping others to be able to help others ."
