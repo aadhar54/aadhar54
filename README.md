@@ -6,6 +6,7 @@ I believe that "For a person who is ready to put in extra efforts, nothing is im
 <img src="./aadhar54.jpeg" height="200px">
 
 Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅ 
+Please review my latest career portfolio at https://aadhar54.github.io/ ✅ 
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/aadhar54?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
