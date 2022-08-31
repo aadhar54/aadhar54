@@ -8,8 +8,6 @@ I believe that "For a person who is ready to put in extra efforts, nothing is im
 Read my latest blog at https://aadhar.hashnode.dev/two-years-in-it ✅ <br/>
 Please review my latest career portfolio at https://aadhar54.github.io/ ✅ 
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/aadhar54?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
-
 ## I'm a `prudent and motivated` Back End Developer , Teacher and self proclaimed Philosopher !!
 
 - My dream is to spend my life `building products` and become a `Software Soldier` 🔭💛
