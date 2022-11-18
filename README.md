@@ -2,6 +2,14 @@
 
 I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
 
+DSA syntax : https://drive.google.com/file/d/1ao4ZA28zzBttDkuS6MLQI52gDs_CJZEm/view
+
+Grokking System Design Book : https://drive.google.com/file/d/1qVYf8nbmoFh1nNtA9IrCNt_t5Dv2zkXD/view?usp=sharing
+
+Grokking the Java Interview : https://drive.google.com/file/d/1kB8Rfc22f3m-b9wLbABRBxJBTrgGIWam/view?usp=sharing
+
+
+
 
 <img src="./aadhar54.jpeg" height="200px">
 
