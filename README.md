@@ -1,4 +1,4 @@
-### Hi there, I'm **Aadhar Bhatnagar** - [Resume][website] 👋 
+### Hi there, I'm **Aadhar Bhatnagar** 👋 
 
 I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
 
