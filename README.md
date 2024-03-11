@@ -1,4 +1,4 @@
-### Hi there, I'm **Aadhar Bhatnagar** 👋 
+### Hi there, I'm **Aadhar** 👋 
 
 I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
 
