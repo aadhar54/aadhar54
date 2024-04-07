@@ -1,9 +1,5 @@
 ### Hi there, I'm **Aadhar** 👋 
 
-=======================================
-What I am learning these days :
-https://www.javaguides.net/2021/07/crud-junit-tests-for-spring-data-jpa.html
-=======================================
 I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
 
 DSA syntax : https://drive.google.com/file/d/1ao4ZA28zzBttDkuS6MLQI52gDs_CJZEm/view
@@ -63,3 +59,8 @@ Please review my latest career portfolio at https://aadhar54.github.io/ ✅
 [linkedin]: https://linkedin.com/in/thebtechviral/
 
 # "There is only one thing more important than helping others is helping others to be able to help others ."
+
+=======================================
+What I am learning these days :
+https://www.javaguides.net/2021/07/crud-junit-tests-for-spring-data-jpa.html
+=======================================
