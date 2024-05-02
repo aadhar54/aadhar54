@@ -3,6 +3,7 @@
 I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
 
 <img src="https://img1.wsimg.com/isteam/stock/V5yGK9n/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600" height="200px">
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" height="200px">
 
 DSA syntax : https://drive.google.com/file/d/1ao4ZA28zzBttDkuS6MLQI52gDs_CJZEm/view
 
