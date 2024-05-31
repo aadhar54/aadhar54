@@ -47,6 +47,71 @@ Please review my latest career portfolio at https://aadhar54.github.io/ ✅
 [<img align="center" height="40" src="https://img.icons8.com/color/144/000000/linkedin.png"/>](https://www.linkedin.com/in/thebtechviral/)
 [<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/twitter.png"/>](https://twitter.com/aadhar54)
 [<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/instagram-new.png"/>](https://aadhar54.github.io/)
+
+[31/05, 08:07] aadhari🟡: Q2 check if duplicate present in group of 'distance' d number of elements. 
+distance  = 3
+1 2 3 1 4 5 1
+false 
+
+distance  = 3
+8 9 1 4 6 7 6 
+true
+
+Try this using :
+1. Brute Force
+2. Sliding Window
+
+
+"Q.1
+k = 3
+str = ""xyzzazb"" 
+ans = 2 [xyz, azb]
+
+k=3
+str = ""cdfcghyxzazazb"" (testcase 2)
+
+Return the count of substrings of size k where characters are not repeated."
+[31/05, 08:08] aadhari🟡: // This is fixed sliding window
+boolean isDuplicate(int[] arr, int distance) {
+    int i = 0;
+	
+    Set<Integer> set = new HashSet<>();
+	
+    for(int k = 0; k < distance; k++) {
+        if(set.contains(arr[k])) {
+            return true;
+        }
+        set.add(arr[k]);
+    }
+	
+    set.remove(arr[i++]);
+	
+    for(int k = distance; k < arr.len; k++) {
+        if(set.contains(arr[k])) {
+            return true;
+        }
+        set.add(arr[k]);
+        set.remove(arr[i++]);
+    }
+    return false;
+}
+[31/05, 08:08] aadhari🟡: // FLEXIBLE SLIDING WINDOW
+int countStr(String str, int k) {
+    int count = 0;
+    int start = 0;
+    Set<Character> set = new HashSet<>();
+    for(int end = 0; end < str.length(); end++) {
+        while(set.contains(str.charAt(end)) && start < str.length()) {
+            set.remove(str.charAt(start)); // window shrink from the left
+            start++;
+        }
+        set.add(str.charAt(end)); // window expand from right
+        (if(end - start + 1) == k) {
+            count++;
+        }
+    }
+    return count;
+}
    
 
 <br />
