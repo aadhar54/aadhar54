@@ -71,7 +71,8 @@ k=3
 str = ""cdfcghyxzazazb"" (testcase 2)
 
 Return the count of substrings of size k where characters are not repeated."
-[31/05, 08:08] aadhari🟡: // This is fixed sliding window
+// This is fixed sliding window
+
 boolean isDuplicate(int[] arr, int distance) {
     int i = 0;
 	
@@ -95,7 +96,9 @@ boolean isDuplicate(int[] arr, int distance) {
     }
     return false;
 }
-[31/05, 08:08] aadhari🟡: // FLEXIBLE SLIDING WINDOW
+
+// FLEXIBLE SLIDING WINDOW
+
 int countStr(String str, int k) {
     int count = 0;
     int start = 0;
