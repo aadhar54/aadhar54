@@ -48,77 +48,267 @@ Please review my latest career portfolio at https://aadhar54.github.io/ ✅
 [<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/twitter.png"/>](https://twitter.com/aadhar54)
 [<img align="center" height="40" src="https://img.icons8.com/fluent/144/000000/instagram-new.png"/>](https://aadhar54.github.io/)
 
-[31/05, 08:07] aadhari🟡: Q2 check if duplicate present in group of 'distance' d number of elements. 
-distance  = 3
-1 2 3 1 4 5 1
-false 
-
-distance  = 3
-8 9 1 4 6 7 6 
-true
-
-Try this using :
-1. Brute Force
-2. Sliding Window
+====
+====
+ 
+Querying Data with SQL in MariaDB 
 
 
-"Q.1
-k = 3
-str = ""xyzzazb"" 
-ans = 2 [xyz, azb]
+SELECT CURDATE(); 
+The script above is used to generate the current date in a string format. How would you generate it in a numeric format?
+SELECT CURDATE() + 0;
 
-k=3
-str = ""cdfcghyxzazazb"" (testcase 2)
+ You are working on a table named Student that contains three columns: Name, Subject, and Marks. How would you describe the result of the SQL statement given below? 
+ Result would be incorrect and mismatched.
 
-Return the count of substrings of size k where characters are not repeated."
-// This is fixed sliding window
+You are working on a table named Marks that has four columns: Id, Math, Science, and Arts. How would you get Id and Math where items in Math are in ascending order?
+SELECTS Id, Math FROM Marks ORDER BY Math;
 
-boolean isDuplicate(int[] arr, int distance) {
-    int i = 0;
-	
-    Set<Integer> set = new HashSet<>();
-	
-    for(int k = 0; k < distance; k++) {
-        if(set.contains(arr[k])) {
-            return true;
-        }
-        set.add(arr[k]);
-    }
-	
-    set.remove(arr[i++]);
-	
-    for(int k = distance; k < arr.len; k++) {
-        if(set.contains(arr[k])) {
-            return true;
-        }
-        set.add(arr[k]);
-        set.remove(arr[i++]);
-    }
-    return false;
-}
 
-// FLEXIBLE SLIDING WINDOW
+You are required to create a stored procedure that retrieves outdated records from master data tables. For inactive records, a column named ActiveInd is set to 0 in every master data table. How would you create this stored procedure?
+CREATE PROCEDURE FetchInactive ( param CHAR(100))
+ BEGIN
+ SELECT * FROM param WHERE ActiveInd = 0;
+ END 
+ 
+ You are working on tables A and B. The definitions of the tables are the same. You want to know the data records present in both tables. How would you find this information?
+ (SELECT * FROM A) INTERSECT (SELECT * FROM B);
 
-int countStr(String str, int k) {
-    int count = 0;
-    int start = 0;
-    Set<Character> set = new HashSet<>();
-    for(int end = 0; end < str.length(); end++) {
-        while(set.contains(str.charAt(end)) && start < str.length()) {
-            set.remove(str.charAt(start)); // window shrink from the left
-            start++;
-        }
-        set.add(str.charAt(end)); // window expand from right
-        (if(end - start + 1) == k) {
-            count++;
-        }
-    }
-    return count;
-}
-   
 
-<br />
-<br />
+You have executed several SQL statements, but the changes are not reflected. You discover that auto-commit is disabled. How can you enable it?
+SET autocommit = 1;
+
+What is the default order of the SELECT query?
+Your choice: correct -
+No order
+
+You are working on a table named Donations that contains columns Id (text), Prefix (numeric), and Suffix (text). There is a script to retrieve data which throws an error. 
+SELECT Id, Prefix + Suffix AS Donation FROM Donations;
+==>SELECT Id, CAST(Prefix AS CHAR(20)) + Suffix AS Donation FROM Donations;
+
+You are working on two tables named Vendor and Customer that both require their columns to be updated to IsCustomer and IsVendor respectively. By default, the columns IsCustomer and IsVendor are set to 0. How can you update the respective columns for the records that are present in both tables by comparing the Id column of both tables?
+UPDATE Vendor, Customer SET Vendor.IsCustomer = 1 , Customer.IsVendor = 1 WHERE Vendor.Id = Customer.Id;
+
+
+ What is the difference between CURRENT_USER() and USER()?
+USER() returns the username and hostname given when authenticating MariaDB, while CURRENT_USER returns the username and hostname from the MariaDB account that the server used to authenticate the current client.
+
+ 
+What would be the result of the given script?
+SELECT CASE BINARY 'B' WHEN 'a' THEN 1 WHEN 'b' THEN 2 END; 
+NULL
+
+
+ A coalesce script is given below:
+
+ COALESCE(NULL, 1, NULL, 2, NULL, 3, NULL, 4);What is the output of the script?
+ 1
+ 
+You are required to create a procedure that counts the number of rows of any table passed as an argument and store it in an output argument. How would you create this procedure?
+CREATE PROCEDURE FetchData (IN param1 CHAR(100), OUT param2 INT)
+ BEGIN 
+ SELECT COUNT(*) INTO param2 FROM param1;
+ END;
+
+
+1. What would be the result of the given script? 
+SELECT CASE BINARY 'B' WHEN 'a' THEN 1 WHEN 'b' THEN 2 END; 
+ 
+        NULL 
+ 
+2. How can you change the parameters of a stored procedure? 
+ 
+        By dropping and replace the stored procedure 
+ 
+3. A stored procedure calls CURRENT_USER(). What is the output of the call? 
+ 
+        Owner of the procedure 
+ 
+4. You are working on a table named "MaterialDiscount" that contains three columns: Product, Price, and 
+Discount, where Discount is a ratio. How would you retrieve all data from the table, with an additional column 
+calculating price after discount? 
+ 
+        SELECT Product, Price, Discount, Price - Price*Discount AS 'Price after discount' FROM 
+MaterialDiscount; 
+ 
+5. The script SELECT 50/(5-5); throws an error:  ERROR_ON_DIVISION_BY_ZERO What could be the 
+reason? 
+ 
+        SQL mode is used. 
+ 
+6. Which of the following is true about alias in a query? 
+ 
+        It is a correlation name 
+ 
+7. What is the difference between CURRENT_USER() and USER()? 
+ 
+        USER() returns the username and hostname given when authenticating MariaDB, while 
+CURRENT_USER returns the username and hostname from the MariaDB account that the server used to 
+authenticate the current client. 
+ 
+8. You are working on a table named Donations that contains columns Id (text), Prefix (numeric), and Suffix 
+(text). There is a script to retrieve data which throws an error. 
+SELECT Id, Prefix + Suffix AS Donation FROM Donations; 
+How would you fix the error? 
+ 
+        SELECT Id, CAST(Prefix AS CHAR(20)) + Suffix AS Donation FROM Donations; 
+ 
+9. What is the default order of the SELECT query? 
+ 
+        No order 
+ 
+10. Which of the following is a numeric data type? 
+ 
+        BOOLEAN 
+ 
+11. You are working with four SQL queries given below: 
+SELECT * FROM USER; 
+SHOW AUTHORS; 
+SHOW COLUMNS FROM USER; 
+RENAME USER STAT TO STANLEY; 
+How many of the above queries are DQL? 
+ 
+        3 
+ 
+12. What is true for the ALTER PROCEDURE statement? 
+ 
+        It can be used to change the characteristics of a stored procedure. 
+ 
+13. Which command will execute a stored procedure? 
+ 
+        CALL 
+ 
+14. You are required to create a stored procedure that retrieves outdated records from master data tables. For 
+inactive records, a column named ActiveInd is set to 0 in every master data table. How would you create this 
+stored procedure? 
+ 
+        CREATE PROCEDURE FetchInactive ( param CHAR(100)) 
+         BEGIN 
+         SELECT * FROM param WHERE ActiveInd = 0; 
+         END 
+ 
+15. You created a stored procedure "Changemap" that has security characteristics set as definer. It deletes 
+some data while executing. How would you ALTER the procedure so that everyone cannot use the procedure 
+to delete data? 
+ 
+        ALTER PROCEDURE Changemap SQL SECURITY INVOKER; 
+ 
+16. Which of the following privileges are required to delete a procedure? 
+ 
+        ALTER ROUTINE 
+ 
+17. You are working on a table named Student that contains three columns: Name, Subject, and Marks. How 
+would you describe the result of the SQL statement given below? 
+SELECT Name, Subject, AVG(Marks) FROM Student; 
+ 
+        Result would be incorrect and mismatched. 
+ 
+18. You are working on a data-set named Flight that contains two columns: Origin and Destination. You are 
+required to create a recursive common table expression that selects all the destinations one can reach from 
+origin "London". Which code would do the job? 
+ 
+        WITH RECURSIVE Route AS ( 
+        SELECT Origin AS Destination FROM Flight WHERE Origin = "London" 
+        UNION 
+        SELECT Flight.Destination FROM Flight, Route WHERE Route.Destination = Flight.Origin 
+        ) 
+ 
+19. You are working on concatenating two variables VAR1 and VAR2 with the script given below. Either of the 
+variables may contain a NULL value. 
+ 
+CONCAT(VAR1, VAR2); 
+ 
+The script results in a NULL. How can you handle the expected NULL value? 
+ 
+        CONCAT(IFNULL(VAR1, " "), IFNULL(VAR2, " ")); 
+ 
+20. You are working on a table named Marks that has four columns: Id, Math, Science, and Arts. How would 
+you get Id and Math where items in Math are in ascending order? 
+ 
+        SELECTS Id, Math FROM Marks ORDER BY Math; 
+ 
+21. Which of the following is NOT a select expression? 
+ 
+        Database_name.* 
+ 
+22. What does the window function do? 
+ 
+        Calculates an aggregate value based on a group of rows and returns multiple rows for each group 
+ 
+23. You are working on a stored procedure named InventoryBuckets and there is a confirmed requirement to 
+tweak the logic of the body. What do you need to do first considering you have backup of code and now need 
+to update the stored procedure with same name? 
+ 
+        DROP PROCEDURE InventoryBuckets; 
+ 
+24. You are working on two tables named Vendor and Customer that both require their columns to be updated 
+to IsCustomer and IsVendor respectively. By default, the columns IsCustomer and IsVendor are set to 0. How 
+can you update the respective columns for the records that are present in both tables by comparing the Id 
+column of both tables? 
+ 
+        UPDATE Vendor, Customer SET Vendor.IsCustomer = 1 , Customer.IsVendor = 1 WHERE Vendor.Id = 
+Customer.Id; 
+ 
+25. Which command will NOT return a current user? 
+ 
+        DEFAULT_USER 
+ 
+26. How would you create a stored procedure to retrieve all data from a table named 'Sales'? 
+ 
+        CREATE PROCEDURE Retrieve_Sales  BEGIN SELECT * FROM Sales; END; 
+ 
+27. What is the range of the unsigned tinyint data type? 
+ 
+        0 to 255 
+ 
+28. 
+SELECT CURDATE(); 
+The script above is used to generate the current date in a string format. How would you generate it in a numeric 
+format? 
+ 
+        SELECT CURDATE() + 0; 
+ 
+29. You are working on a table named Inventory with four columns: Product, Price, Discount, and Stock, where 
+the discount is a percentage (whole number). How would you calculate the total amount and the amount given 
+as a discount? 
+ 
+        SELECT SUM(Price*Stock) AS 'Total Amount', SUM(Price*Stock*Discount)/100 AS 'Total Discount' FROM 
+Inventory; 
+ 
+30. How many columns can be concatenated using CONCAT? 
+ 
+        255 
+ 
+21. You are working on a table named Marks that has four columns: Id, Math, Science, and Arts. How would 
+you get Id, Math, and Science, where Math marks are in ascending order and Science marks are in descending 
+order? 
+ 
+        SELECTS Id, Math, Science FROM Marks ORDER BY Math ASC, Science DESC; 
+ 
+26. What is the default type of the parameter in a stored procedure? 
+ 
+        IN 
+ 
+27. What is the difference between SELECT and TRUNCATE? 
+ 
+        SELECT is a DQL statement, while TRUNCATE is a DDL statement. 
+ 
+24. You create a stored procedure and want to change its characteristics. What would happen if you tried to 
+alter the procedure? 
+ 
+        The procedure would be altered without an error. 
+ 
+28. You are required to create a procedure that counts the number of rows of any table passed as an argument 
+and store it in an output argument. How would you create this procedure? 
+ 
+        CREATE PROCEDURE FetchData (IN param1 CHAR(100), OUT param2 INT) 
+ BEGIN 
+ SELECT COUNT(*) INTO param2 FROM param1; 
+ END; 
+ 
+
+====
+====
 
 ---
 
@@ -129,8 +319,3 @@ int countStr(String str, int k) {
 [linkedin]: https://linkedin.com/in/thebtechviral/
 
 # "There is only one thing more important than helping others is helping others to be able to help others ."
-
-===========================================
-What I am learning these days :
-https://www.javaguides.net/2021/07/crud-junit-tests-for-spring-data-jpa.html
-=======================================
