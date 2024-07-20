@@ -56,7 +56,7 @@ Please review my latest career portfolio at https://aadhar54.github.io/ ✅
 [instagram]: https://aadhar54.github.io/
 [linkedin]: https://linkedin.com/in/thebtechviral/
 
-# "There is only one thing more important than helping others is helping others to be able to help others ."
+# "Everything comes to us that belongs to us if we create the capacity to receive it."
 
 
 <img align="center" height="40" src="./maa_anupurna.webp"/>
