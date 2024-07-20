@@ -57,3 +57,6 @@ Please review my latest career portfolio at https://aadhar54.github.io/ ✅
 [linkedin]: https://linkedin.com/in/thebtechviral/
 
 # "There is only one thing more important than helping others is helping others to be able to help others ."
+
+
+<img align="center" height="40" src="./maa_anupurna.webp"/>
