@@ -6,6 +6,8 @@ I believe that "For a person who is ready to put in extra efforts, nothing is im
 
 “How unfortunate I am, that this has happened to me!” Not at all—rather, “How fortunate I am, that although this has happened to me I am still unhurt, neither broken by the present nor dreading what is to come.” - Marcus Aurelius, Meditations
 
+"Don’t insist that what happens should happen as you wish; wish that things happen as they actually happen. Then your life will go well."
+
 DSA syntax : https://drive.google.com/file/d/1ao4ZA28zzBttDkuS6MLQI52gDs_CJZEm/view
 
 Grokking System Design Book : https://drive.google.com/file/d/1qVYf8nbmoFh1nNtA9IrCNt_t5Dv2zkXD/view?usp=sharing
