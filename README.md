@@ -1,10 +1,3 @@
-Groovy https://www.timroes.de/groovy-tutorial-for-java-developers
-Groovy https://www.youtube.com/watch?v=BXRDTiJfrSE
-How to write Groovy Tests for a Java Class? https://www.youtube.com/watch?v=6z9apdwQRJ0
-The Groovy Way of Testing with Spock - Naresha K https://www.youtube.com/watch?v=viiyhSRYkys
-https://www.youtube.com/watch?v=i5Qu3qYOfsM
-https://www.youtube.com/watch?v=gYZ63CkxrlU
-
 ### Hi there, I'm **Aadhar** 👋 
 
 I believe that "For a person who is ready to put in extra efforts, nothing is impossible."
